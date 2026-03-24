@@ -13,11 +13,11 @@ namespace APBD_Task2
 
             DataSeeder.Seed(rentalService);
 
-            Console.WriteLine("=== ALL EQUIPMENT ===");
+            Console.WriteLine("- ALL EQUIPMENT -");
             rentalService.DisplayAllEquipment();
 
             Console.WriteLine();
-            Console.WriteLine("=== AVAILABLE EQUIPMENT ===");
+            Console.WriteLine("- AVAILABLE EQUIPMENT -");
             rentalService.DisplayAvailableEquipment();
 
             var users = rentalService.GetUsers();
