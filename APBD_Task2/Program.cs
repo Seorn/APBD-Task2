@@ -50,7 +50,6 @@ namespace APBD_Task2
             rentalService.DisplayOverdueRentals();
 
             Console.WriteLine();
-            Console.WriteLine("- SUMMARY REPORT -");
             rentalService.GenerateSummaryReport();
 
             Console.WriteLine();
